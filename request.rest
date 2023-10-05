@@ -1,0 +1,19 @@
+GET http://localhost:3000
+
+###
+
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/id
+
+###
+POST http://localhost:3000/createUser
+Header: Content-Type: application/json
+
+{
+  "name": "John",
+  "email": "john@gmai.com",
+  "password": "1234567"
+}
